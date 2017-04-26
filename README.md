@@ -14,7 +14,7 @@ Este tutorial não assume nenhum conhecimento prévio de scripts ou programaçã
 
 Este livro é adequado para uso em sala de aula como uma introdução geral aos conceitos de programação.
 
-Este documento é aqui concedido ao Domínio Público.**Nenhum direito de autor!**
+Este documento é aqui concedido ao Domínio Público.**Nenhum direito autoral!**
 
 ---
 
