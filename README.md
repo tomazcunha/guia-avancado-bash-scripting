@@ -36,7 +36,7 @@ Este documento é aqui concedido ao Domínio Público.**Nenhum direito autoral!*
 | :--- |
 
 
-| Revisão 0.1 | 19 Apr 2017 | Revisado por: tom |
+| Revisão 0.1 | 19 Apr 2017 | Revisado por: tomaz |
 | :--- | :--- | :--- |
 |  |  |  |
 
