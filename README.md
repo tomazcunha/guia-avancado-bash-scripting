@@ -12,9 +12,13 @@ Este documento é aqui concedido ao Domínio Público.**Nenhum direito autoral!*
 
 **Original:** Mendel Cooper
 
-
-
 **Tradução Protuguês BR: **Tomaz Cunha
+
+https://tomazcunhabook.gitbooks.io/guia-avancado-bash-scripting/content/
+
+https://www.gitbook.com/book/tomazcunhabook/guia-avancado-bash-scripting/details
+
+https://github.com/tomazcunha/guia-avancado-bash-scripting
 
 
 
