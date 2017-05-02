@@ -12,8 +12,8 @@ Este documento é aqui concedido ao Domínio Público.**Nenhum direito autoral!*
 
 **Original:** Mendel Cooper
 
-* http://tldp.org/LDP/abs/html/abs-guide.html
-* http://tldp.org/guides.html
+* [http://tldp.org/LDP/abs/html/abs-guide.html](http://tldp.org/LDP/abs/html/abs-guide.html)
+* [http://tldp.org/guides.html](http://tldp.org/guides.html)
 
 **Tradução Protuguês BR: **Tomaz Cunha
 
