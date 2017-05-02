@@ -12,13 +12,14 @@ Este documento é aqui concedido ao Domínio Público.**Nenhum direito autoral!*
 
 **Original:** Mendel Cooper
 
+* http://tldp.org/LDP/abs/html/abs-guide.html
+* http://tldp.org/guides.html
+
 **Tradução Protuguês BR: **Tomaz Cunha
 
-https://tomazcunhabook.gitbooks.io/guia-avancado-bash-scripting/content/
-
-https://www.gitbook.com/book/tomazcunhabook/guia-avancado-bash-scripting/details
-
-https://github.com/tomazcunha/guia-avancado-bash-scripting
+* [https://tomazcunhabook.gitbooks.io/guia-avancado-bash-scripting/content/](https://tomazcunhabook.gitbooks.io/guia-avancado-bash-scripting/content/)
+* [https://www.gitbook.com/book/tomazcunhabook/guia-avancado-bash-scripting/details](https://www.gitbook.com/book/tomazcunhabook/guia-avancado-bash-scripting/details)
+* [https://github.com/tomazcunha/guia-avancado-bash-scripting](https://github.com/tomazcunha/guia-avancado-bash-scripting)
 
 
 
