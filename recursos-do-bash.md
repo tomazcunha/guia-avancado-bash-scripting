@@ -14,73 +14,31 @@ Este manual pretende ser uma breve introdução aos recursos encontrados no Bash
 
 A página manual do Bash deve ser usada como referência definitiva no comportamento do shell.
 
-  
+• **Introdução: **Uma introdução ao shell.
 
+• **Definições:** Algumas definições usadas no restante deste manual.
 
-• Introdução: Uma introdução ao shell.
+• **Recursos básicos do shell:** O shell "blocos de construção".
 
-  
+• **Comandos Builtin do shell:** comandos que fazem parte do shell.
 
+• **Variáveis ​​de shell:** Variáveis ​​usadas ou configuradas pelo Bash.
 
-• Definições: Algumas definições usadas no restante deste manual.
+• **Bash Características:** Recursos encontrados apenas em Bash.
 
-  
+• **Controle de trabalho:** o controle de trabalho é e como Bash permite que você usá-lo.
 
+• **Edição de Linha de Comando:** Capítulo descrevendo os recursos de edição da linha de comando.
 
-• Recursos básicos do shell: O shell "blocos de construção".
+• **Usando Histórico Interativamente:** Expansão do Histórico de Comandos
 
-  
+• **Instalando o Bash:** Como construir e instalar o Bash no seu sistema.
 
+• **Relatando Bugs:** Como relatar bugs no Bash.
 
-• Comandos Builtin do shell: comandos que fazem parte do shell.
+• **Principais diferenças da Shell Bourne:** Uma lista concisa das diferenças entre Bash e versões históricas de / bin / sh.
 
-  
+• **GNU Free Documentation License:** Copiar e compartilhar esta documentação.
 
-
-• Variáveis ​​de shell: Variáveis ​​usadas ou configuradas pelo Bash.
-
-  
-
-
-• Bash Características: Recursos encontrados apenas em Bash.
-
-  
-
-
-• Controle de trabalho: o controle de trabalho é e como Bash permite que você usá-lo.
-
-  
-
-
-• Edição de Linha de Comando: Capítulo descrevendo os recursos de edição da linha de comando.
-
-  
-
-
-• Usando Histórico Interativamente: Expansão do Histórico de Comandos
-
-  
-
-
-• Instalando o Bash: Como construir e instalar o Bash no seu sistema.
-
-  
-
-
-• Relatando Bugs: Como relatar bugs no Bash.
-
-  
-
-
-• Principais diferenças da Shell Bourne: Uma lista concisa das diferenças entre Bash e versões históricas de / bin / sh.
-
-  
-
-
-• GNU Free Documentation License: Copiar e compartilhar esta documentação.
-
-  
-
-
-• Índices: vários índices para este manual.
+• **Índices:** vários índices para este manual.
 
