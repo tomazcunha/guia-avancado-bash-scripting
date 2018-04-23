@@ -15,7 +15,7 @@ Este documento é aqui concedido ao Domínio Público.**Nenhum direito autoral!*
 * [http://tldp.org/LDP/abs/html/abs-guide.html](http://tldp.org/LDP/abs/html/abs-guide.html)
 * [http://tldp.org/guides.html](http://tldp.org/guides.html)
 
-**Tradução Protuguês BR: **Tomaz Cunha
+**Tradução pt\_BR: **Tomaz Cunha
 
 * [https://tomazcunhabook.gitbooks.io/guia-avancado-bash-scripting/content/](https://tomazcunhabook.gitbooks.io/guia-avancado-bash-scripting/content/)
 * [https://www.gitbook.com/book/tomazcunhabook/guia-avancado-bash-scripting/details](https://www.gitbook.com/book/tomazcunhabook/guia-avancado-bash-scripting/details)
