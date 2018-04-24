@@ -1,4 +1,4 @@
-# 1. Introdução
+# Introducao
 
 > _Script: uma escrita; um documento escrito.\[Obs.\]_
 >
