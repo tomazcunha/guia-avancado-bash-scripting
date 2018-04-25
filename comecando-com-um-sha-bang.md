@@ -3,9 +3,9 @@
 No caso mais simples, um script nada mais é do que uma lista de comandos do sistema armazenados em um arquivo. No mínimo, isso economiza o esforço de redigitar essa seqüência particular de comandos toda vez que é invocada.
 
 **Exemplo 2-1cleanup : Um script para limpar arquivos de log em / var / log**
-'''shell
+```shell
  \# Limpar \# Corra como root, claro. cd / var / log cat / dev / null&gt; messages cat / dev / null&gt; wtmp echo "Arquivos de log limpos." 
-'''
+```
 
 
 Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmente ser invocados um por um a partir da linha de comando no console ou em uma janela de terminal.As vantagens de colocar os comandos em um script vão muito além de não precisar redigitá-las várias vezes.O script se torna um programa - uma _ferramenta_ - e pode ser facilmente modificado ou personalizado para um aplicativo específico.
