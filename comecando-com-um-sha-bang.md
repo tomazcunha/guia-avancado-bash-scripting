@@ -21,35 +21,29 @@ Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmen
 
 **Exemplo 2-2 limpeza : um script de limpeza aprimorado**
 
-```
+```bash
 #!/bin/bash
-```
+# Cabeçalho adequado para um script Bash.
 
-```
-# Proper header for a Bash script.
+# Limpeza, versão 2
 
-# Cleanup, version 2
+# Corra como root, claro.
+# Insira o código aqui para imprimir a mensagem de erro e saia se não for root.
 
-# Run as root, of course.
-# Insert code here to print error message and exit if not root.
 
 LOG_DIR=/var/log
-# Variables are better than hard-coded values.
+# As variáveis ​​são melhores que os valores codificados.
 cd $LOG_DIR
 
-cat /dev/null 
->
- messages
-cat /dev/null 
->
- wtmp
+cat /dev/null > messages
+cat /dev/null > wtmp
 
 
-echo "Logs cleaned up."
+echo "Logs limpos".
 
-exit #  The right and proper method of "exiting" from a script.
-     #  A bare "exit" (no parameter) returns the exit status
-     #+ of the preceding command. 
+exit # O método correto e adequado de "sair" de um script.
+     # Uma "saída" nua (sem parâmetro) retorna o status de saída
+     # + do comando anterior.
 ```
 
 
