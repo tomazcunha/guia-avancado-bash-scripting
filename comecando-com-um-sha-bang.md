@@ -6,7 +6,7 @@ No caso mais simples, um script nada mais é do que uma lista de comandos do sis
 
 ```shell
 # Limpar
-# Corra como root, claro.
+# Execute como root, claro.
 cd /var/log
 cat /dev/null > messages
 cat /dev/null > wtmp
