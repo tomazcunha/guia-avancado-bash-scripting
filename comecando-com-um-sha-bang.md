@@ -4,9 +4,9 @@
 >
 > --Larry Wall
 
-No caso mais simples, um script nada mais é do que uma lista de comandos do sistema armazenados em um arquivo. No mínimo, isso economiza o esforço de redigitar essa seqüência particular de comandos toda vez que é invocada.
+No caso mais simples, um script nada mais é do que uma lista de comandos do sistema armazenados em um arquivo. No mínimo, isso economiza o esforço de redigitar essa sequência particular de comandos toda vez que é invocada.
 
-**Exemplo 2-1. Limpar: Um script para limpar arquivos de log em /var/log**
+**Exemplo 2-1. limpeza: Um script para limpar arquivos de log em /var/log**
 
 ```bash
 # Limpar
@@ -17,12 +17,41 @@ cat /dev/null > wtmp
 echo "Arquivos de log limpos."
 ```
 
-Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmente ser invocados um por um a partir da linha de comando no console ou em uma janela de terminal.As vantagens de colocar os comandos em um script vão muito além de não precisar redigitá-las várias vezes.O script se torna um programa - uma _ferramenta_ - e pode ser facilmente modificado ou personalizado para um aplicativo específico.
+Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmente ser invocados um por um a partir da linha de comando no console ou em uma janela de terminal. As vantagens de colocar os comandos em um script vão muito além de não precisar redigitá-las várias vezes. O script se torna um programa - uma _ferramenta_ - e pode ser facilmente modificado ou personalizado para um aplicativo específico.
 
-**Exemplo 2-2limpeza : um script de limpeza aprimorado**
+**Exemplo 2-2 limpeza : um script de limpeza aprimorado**
 
-| \#! / bin / bash \# Cabeçalho adequado para um script Bash. \# Limpeza, versão 2 \# Corra como root, claro. \# Insira o código aqui para imprimir a mensagem de erro e saia se não for root. LOG\_DIR = / var / log \# As variáveis ​​são melhores que os valores codificados. cd $ LOG\_DIR cat / dev / null&gt; messages cat / dev / null&gt; wtmp echo "Logs limpos". exit \# O método correto e adequado de "sair" de um script. \# Uma "saída" nua \(sem parâmetro\) retorna o status de saída \# + do comando anterior. |
-| :--- |
+```
+#!/bin/bash
+```
+
+```
+# Proper header for a Bash script.
+
+# Cleanup, version 2
+
+# Run as root, of course.
+# Insert code here to print error message and exit if not root.
+
+LOG_DIR=/var/log
+# Variables are better than hard-coded values.
+cd $LOG_DIR
+
+cat /dev/null 
+>
+ messages
+cat /dev/null 
+>
+ wtmp
+
+
+echo "Logs cleaned up."
+
+exit #  The right and proper method of "exiting" from a script.
+     #  A bare "exit" (no parameter) returns the exit status
+     #+ of the preceding command. 
+```
+
 
 
 Agora _isso está_ começando a parecer um roteiro real.Mas podemos ir ainda mais longe...
