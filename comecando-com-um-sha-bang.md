@@ -44,6 +44,12 @@ exit # O método correto e adequado de "sair" de um script.
      # + do comando anterior.
 ```
 
+```
+[2.2]:/script/2.2-limpeza.sh
+```
+
+
+
 Agora _isso está_ começando a parecer um roteiro real.Mas podemos ir ainda mais longe...
 
 **Exemplo 2-3limpeza : uma versão aprimorada e generalizada dos scripts acima.**
