@@ -2,7 +2,7 @@
 
 > _Script: uma escrita; um documento escrito.\[Obs.\]_
 >
-> * _Dicionário de Webster, 1913 ed._
+> --_Dicionário de Webster, 1913 ed._
 
 O shell é um interpretador de comandos. Mais do que apenas a camada de isolamento entre o kernel do sistema operacional e o usuário, também é uma linguagem de programação bastante poderosa. Um programa shell, chamado de script, é uma ferramenta fácil de usar para criar aplicativos "colando" chamadas de sistema, ferramentas, utilitários e binários compilados. Praticamente todo o repertório de comandos, utilitários e ferramentas do UNIX está disponível para invocação por um script de shell. Se isso não bastasse, os comandos internos do shell, como testes e construções de loop, fornecem mais poder e flexibilidade aos scripts. Scripts Shell são especialmente adequados para tarefas administrativas do sistema e outras tarefas rotineiras e repetitivas que não requerem os sinos e assobios de uma linguagem de programação totalmente estruturada.
 
@@ -48,9 +48,13 @@ Se alguma das situações acima se aplica, considere uma linguagem de script mai
 
 Nós estaremos usando Bash, um acrônimo [\[3\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN139) para "Bourne-Again shell" e um trocadilho com o agora clássico Bourne shell de Stephen Bourne. O Bash se tornou um padrão de fato para scripts de shell na maioria dos sabores do UNIX. A maioria dos princípios que este livro cobre se aplica igualmente a scripts com outros shells, como o Korn Shell, do qual o Bash deriva algumas de suas características, [\[4\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN147) e o C Shell e suas variantes. \(Note que a programação C Shell não é recomendada devido a certos problemas inerentes, como apontado em um [post Usenet de](http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/) outubro de 1993 por Tom Christiansen.\)
 
-O que segue é um tutorial sobre scripts de shell.Ele depende muito de exemplos para ilustrar vários recursos do shell.Os scripts de exemplo funcionam - eles foram testados, na medida do possível - e alguns deles são úteis na vida real.O leitor pode brincar com o código de trabalho real dos exemplos no arquivo de origem \( scriptname.sh ou scriptname.bash \), [\[5\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN157) dar permissão de execução \( **chmod u + rx scriptname** \), depois executá-los para ver o que acontece.Se o [arquivo de origem](http://bash.deta.in/abs-guide-latest.tar.bz2) não estiver disponível, recorte e cole nas versões em [HTML](http://www.tldp.org/LDP/abs/abs-guide.html.tar.gz) ou em [PDF](http://bash.deta.in/abs-guide.pdf) .Esteja ciente de que alguns dos scripts apresentados aqui introduzem recursos antes de serem explicados, e isso pode exigir que o leitor pule temporariamente para a iluminação.
+O que segue é um tutorial sobre scripts de shell. Ele depende muito de exemplos para ilustrar vários recursos do shell. Os scripts de exemplo funcionam - eles foram testados, na medida do possível - e alguns deles são úteis na vida real.O leitor pode brincar com o código de trabalho real dos exemplos no arquivo de origem \(scriptname.sh ou scriptname.bash\), [\[5\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN157) dar permissão de execução \(**chmod u+rx scriptname**\), depois executá-los para ver o que acontece. Se o [arquivo de origem](http://bash.deta.in/abs-guide-latest.tar.bz2) não estiver disponível, recorte e cole nas versões em [HTML](http://www.tldp.org/LDP/abs/abs-guide.html.tar.gz) ou em [PDF](http://bash.deta.in/abs-guide.pdf). Esteja ciente de que alguns dos scripts apresentados aqui introduzem recursos antes de serem explicados, e isso pode exigir que o leitor pule temporariamente para o esclarecimento.
 
 Salvo indicação em contrário, [o autor](mailto:thegrendel.abs@gmail.com) deste livro escreveu os scripts de exemplo a seguir.
 
-Seu semblante era ousado e bateu não.--Edmund Spenser
+> Seu semblante era ousado e nada batido.
+>
+> --Edmund Spenser
+
+
 
