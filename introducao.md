@@ -52,7 +52,7 @@ O que segue é um tutorial sobre scripts de shell. Ele depende muito de exemplos
 
 Salvo indicação em contrário, [o autor](mailto:thegrendel.abs@gmail.com) deste livro escreveu os scripts de exemplo a seguir.
 
-> Seu semblante era ousado e nada batido.
+> Seu semblante era ousado e não batido.
 >
 > --Edmund Spenser
 
