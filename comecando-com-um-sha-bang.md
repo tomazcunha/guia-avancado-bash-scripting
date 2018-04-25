@@ -4,7 +4,7 @@ No caso mais simples, um script nada mais é do que uma lista de comandos do sis
 
 **Exemplo 2-1. Limpar: Um script para limpar arquivos de log em /var/log**
 
-```shell
+```bash
 # Limpar
 # Execute como root, claro.
 cd /var/log
