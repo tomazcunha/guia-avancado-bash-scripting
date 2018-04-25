@@ -1,10 +1,8 @@
 # 1.2 Começando com um Sha-Bang
 
-> A programação da Shell é uma juke box dos anos 50...
+> A programação do Shell é uma juke box dos anos 50...
 >
 > --Larry Wall
-
-
 
 No caso mais simples, um script nada mais é do que uma lista de comandos do sistema armazenados em um arquivo. No mínimo, isso economiza o esforço de redigitar essa seqüência particular de comandos toda vez que é invocada.
 
