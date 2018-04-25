@@ -44,16 +44,13 @@ Quando não usar scripts de shell
 * Precisa usar bibliotecas ou fazer interface com código legado
 * Aplicações proprietárias de código fechado \(os scripts do Shell colocam o código-fonte em aberto para todo o mundo ver\).
 
-Se alguma das situações acima se aplica, considere uma linguagem de script mais poderosa - talvez Perl, Tcl, Python, Ruby - ou possivelmente uma linguagem compilada como C , C ++ ou Java .Mesmo assim, a criação de protótipos do aplicativo como um script de shell ainda pode ser uma etapa de desenvolvimento útil.
+Se alguma das situações acima se aplica, considere uma linguagem de script mais poderosa - talvez Perl, Tcl, Python, Ruby - ou possivelmente uma linguagem compilada como C, C++ ou Java. Mesmo assim, a criação de protótipos do aplicativo como um script de shell ainda pode ser uma etapa de desenvolvimento útil.
 
-Nós estaremos usando Bash , um acrônimo [\[3\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN139) para "Bourne-Again shell" e um trocadilho com o agora clássico Bourne shell de Stephen Bourne.O Bash se tornou um padrão de fato para scripts de shell na maioria dos sabores do UNIX.A maioria dos princípios que este livro cobre se aplica igualmente a scripts com outros shells, como o Korn Shell , do qual o Bash deriva algumas de suas características, [\[4\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN147) e o C Shell e suas variantes.\(Note que a programação C Shell não é recomendada devido a certos problemas inerentes, como apontado em um [post Usenet de](http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/) outubro de 1993 por Tom Christiansen.\)
+Nós estaremos usando Bash, um acrônimo [\[3\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN139) para "Bourne-Again shell" e um trocadilho com o agora clássico Bourne shell de Stephen Bourne. O Bash se tornou um padrão de fato para scripts de shell na maioria dos sabores do UNIX. A maioria dos princípios que este livro cobre se aplica igualmente a scripts com outros shells, como o Korn Shell, do qual o Bash deriva algumas de suas características, [\[4\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN147) e o C Shell e suas variantes. \(Note que a programação C Shell não é recomendada devido a certos problemas inerentes, como apontado em um [post Usenet de](http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/) outubro de 1993 por Tom Christiansen.\)
 
 O que segue é um tutorial sobre scripts de shell.Ele depende muito de exemplos para ilustrar vários recursos do shell.Os scripts de exemplo funcionam - eles foram testados, na medida do possível - e alguns deles são úteis na vida real.O leitor pode brincar com o código de trabalho real dos exemplos no arquivo de origem \( scriptname.sh ou scriptname.bash \), [\[5\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN157) dar permissão de execução \( **chmod u + rx scriptname** \), depois executá-los para ver o que acontece.Se o [arquivo de origem](http://bash.deta.in/abs-guide-latest.tar.bz2) não estiver disponível, recorte e cole nas versões em [HTML](http://www.tldp.org/LDP/abs/abs-guide.html.tar.gz) ou em [PDF](http://bash.deta.in/abs-guide.pdf) .Esteja ciente de que alguns dos scripts apresentados aqui introduzem recursos antes de serem explicados, e isso pode exigir que o leitor pule temporariamente para a iluminação.
 
 Salvo indicação em contrário, [o autor](mailto:thegrendel.abs@gmail.com) deste livro escreveu os scripts de exemplo a seguir.
 
 Seu semblante era ousado e bateu não.--Edmund Spenser
-
-
-
 
