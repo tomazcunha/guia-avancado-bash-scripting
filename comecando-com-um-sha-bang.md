@@ -4,7 +4,11 @@ No caso mais simples, um script nada mais é do que uma lista de comandos do sis
 
 **Exemplo 2-1cleanup : Um script para limpar arquivos de log em / var / log**
 ```shell
- \# Limpar \# Corra como root, claro. cd / var / log cat / dev / null&gt; messages cat / dev / null&gt; wtmp echo "Arquivos de log limpos." 
+ # Limpar
+ # Corra como root, claro.
+ cd / var / log cat / dev / null&gt; messages 
+ cat / dev / null&gt; wtmp 
+ echo "Arquivos de log limpos."
 ```
 
 
