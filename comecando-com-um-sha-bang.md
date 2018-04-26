@@ -45,24 +45,8 @@ exit # O método correto e adequado de "sair" de um script.
 ```
 
 ```
-[2.2][2.2]
+
 ```
-[2.2]: /scripts/2.2-limpeza.sh
-
-
-[2.2](/scripts/2.2-limpeza.sh)
-
-"Este parágrafo tem link para [Google], [Yahoo], [GitHub], [Gitbook] e [linuxacessível .org]"
-
-[Google]: http://www.google.com.br
-[Yahoo]: http://yahoo.com
-[GitHub]: http://www.github.com:
-[Gitbook]: http://gitbook.com
-[linuxacessível .org]: http://linuxacessivel.org
-
-
-
-Agora _isso está_ começando a parecer um roteiro real.Mas podemos ir ainda mais longe...
 
 **Exemplo 2-3limpeza : uma versão aprimorada e generalizada dos scripts acima.**
 
