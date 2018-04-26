@@ -45,7 +45,7 @@ exit # O método correto e adequado de "sair" de um script.
 ```
 
 ```
-[2.2]
+[2.2][2.2]
 ```
 [2.2]: /scripts/2.2-limpeza.sh
 
