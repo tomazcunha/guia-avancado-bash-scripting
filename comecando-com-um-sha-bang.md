@@ -44,9 +44,6 @@ exit # O método correto e adequado de "sair" de um script.
      # + do comando anterior.
 ```
 
-```
-
-```
 
 **Exemplo 2-3limpeza : uma versão aprimorada e generalizada dos scripts acima.**
 
