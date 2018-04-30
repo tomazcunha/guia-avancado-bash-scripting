@@ -7,7 +7,7 @@
 # Insira o código aqui para imprimir a mensagem de erro e saia se não for root.
 
 LOG_DIR=/var/log
-# As variáveis ​​são melhores que os valores codificados.
+# As variáveis são melhores que os valores codificados.
 cd $LOG_DIR
 
 cat /dev/null > messages
