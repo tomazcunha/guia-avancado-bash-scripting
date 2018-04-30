@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api","-lunr", "-search", "search-plus", "include-codeblock", "ace" ],
+    "plugins": ["-lunr", "-search", "search-plus", "include-codeblock", "ace", "theme-api"],
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
