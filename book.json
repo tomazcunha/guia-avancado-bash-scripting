@@ -19,7 +19,7 @@
         "include-codeblock": {
             "template": "acefull",
             "unindent": true,
-            "theme": "monokai"
+            "theme": "tomorrow"
         }
     }
 }
