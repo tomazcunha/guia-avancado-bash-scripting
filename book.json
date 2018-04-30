@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api","-lunr", "-search", "search-plus", "include-codeblock" ],
+    "plugins": [ "theme-api","-lunr", "-search", "search-plus", "include-codeblock", "ace" ],
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
@@ -16,7 +16,7 @@
             ]
         },
         "include-codeblock": {
-            "template": "ace",
+            "template": "default",
             "unindent": true,
             "theme": "monokai"
         }
