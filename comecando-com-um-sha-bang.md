@@ -22,7 +22,7 @@ Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmen
 
 **Exemplo 2-3limpeza : uma versão aprimorada e generalizada dos scripts acima.**
 
-
+[include](scripts/2.3-limpeza.sh)
 
 
 
