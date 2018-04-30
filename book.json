@@ -16,7 +16,7 @@
             ]
         },
         "include-codeblock": {
-            "template": "ace",
+            "template": "acefull",
             "unindent": true,
             "theme": "monokai"
         }
