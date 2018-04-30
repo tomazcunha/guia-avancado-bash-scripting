@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": [ "theme-api","-lunr", "-search", "search-plus" ],
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
