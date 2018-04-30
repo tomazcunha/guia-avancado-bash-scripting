@@ -8,41 +8,11 @@ No caso mais simples, um script nada mais é do que uma lista de comandos do sis
 
 **Exemplo 2-1. limpeza: Um script para limpar arquivos de log em /var/log**
 
-```bash
-# Limpar
-# Execute como root, claro.
-cd /var/log
-cat /dev/null > messages
-cat /dev/null > wtmp
-echo "Arquivos de log limpos."
-```
+[include](scripts/2.1-limpeza.sh)
 
 Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmente ser invocados um por um a partir da linha de comando no console ou em uma janela de terminal. As vantagens de colocar os comandos em um script vão muito além de não precisar redigitá-las várias vezes. O script se torna um programa - uma _ferramenta_ - e pode ser facilmente modificado ou personalizado para um aplicativo específico.
 
 **Exemplo 2-2 limpeza : um script de limpeza aprimorado**
-
-```bash
-#!/bin/bash
-# Cabeçalho adequado para um script Bash.
-
-# Limpeza, versão 2
-
-# Corra como root, claro.
-# Insira o código aqui para imprimir a mensagem de erro e saia se não for root.
-
-LOG_DIR=/var/log
-# As variáveis ​​são melhores que os valores codificados.
-cd $LOG_DIR
-
-cat /dev/null > messages
-cat /dev/null > wtmp
-
-echo "Logs limpos".
-
-exit # O método correto e adequado de "sair" de um script.
-     # Uma "saída" nua (sem parâmetro) retorna o status de saída
-     # + do comando anterior.
-```
 
 [include](scripts/2.2-limpeza.sh)
 
