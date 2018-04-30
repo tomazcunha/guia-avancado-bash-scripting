@@ -8,7 +8,7 @@ No caso mais simples, um script nada mais é do que uma lista de comandos do sis
 
 **Exemplo 2-1. limpeza: Um script para limpar arquivos de log em /var/log**
 
-[include, lang:"bash"](scripts/2.1-limpeza.sh)
+[include](scripts/2.1-limpeza.sh)
 
 Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmente ser invocados um por um a partir da linha de comando no console ou em uma janela de terminal. As vantagens de colocar os comandos em um script vão muito além de não precisar redigitá-las várias vezes. O script se torna um programa - uma _ferramenta_ - e pode ser facilmente modificado ou personalizado para um aplicativo específico.
 
