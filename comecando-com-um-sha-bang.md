@@ -12,23 +12,17 @@ No caso mais simples, um script nada mais é do que uma lista de comandos do sis
 
 Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmente ser invocados um por um a partir da linha de comando no console ou em uma janela de terminal. As vantagens de colocar os comandos em um script vão muito além de não precisar redigitá-las várias vezes. O script se torna um programa - uma _ferramenta_ - e pode ser facilmente modificado ou personalizado para um aplicativo específico.
 
-
-
 **Exemplo 2-2 limpeza : um script de limpeza aprimorado**
 
 [include](scripts/2.2-limpeza.sh)
-
-
 
 **Exemplo 2-3limpeza : uma versão aprimorada e generalizada dos scripts acima.**
 
 [include](scripts/2.3-limpeza.sh)
 
-
-
 Como você pode não querer eliminar todo o log do sistema, essa versão do script mantém a última seção do log de mensagens intacta.Você descobrirá constantemente maneiras de ajustar os scripts escritos anteriormente para aumentar a eficácia.
 
-\* \* \*
+---
 
 O sha-bang \( \#! \) [\[6\]](https://translate.googleusercontent.com/translate_c?depth=1&hl=pt-BR&ie=UTF8&prev=_t&rurl=translate.google.com&sl=en&sp=nmt4&tl=pt-BR&u=http://tldp.org/LDP/abs/html/abs-guide.html&xid=17259,15700022,15700124,15700149,15700168,15700173,15700186,15700201&usg=ALkJrhj5lJ2g4Z3cLQUtenDTXITEeeXkXQ#FTN.AEN205) na cabeça de um script diz ao seu sistema que este arquivo é um conjunto de comandos a serem alimentados ao interpretador de comandos indicado.O \#!é na verdade um número mágico de dois bytes [\[7\]](https://translate.googleusercontent.com/translate_c?depth=1&hl=pt-BR&ie=UTF8&prev=_t&rurl=translate.google.com&sl=en&sp=nmt4&tl=pt-BR&u=http://tldp.org/LDP/abs/html/abs-guide.html&xid=17259,15700022,15700124,15700149,15700168,15700173,15700186,15700201&usg=ALkJrhj5lJ2g4Z3cLQUtenDTXITEeeXkXQ#FTN.AEN214) , um marcador especial que designa um tipo de arquivo ou, neste caso, um script de shell executável \(digite **man magic** para obter mais detalhes sobre esse fascinante tópico\).Imediatamente após o sha-bang é um nome de caminho .Este é o caminho para o programa que interpreta os comandos no script, seja um shell, uma linguagem de programação ou um utilitário.Este interpretador de comandos executa os comandos no script, começando no topo \(a linha que segue a linha sha-bang \) e ignorando os comentários.[\[8\]](https://translate.googleusercontent.com/translate_c?depth=1&hl=pt-BR&ie=UTF8&prev=_t&rurl=translate.google.com&sl=en&sp=nmt4&tl=pt-BR&u=http://tldp.org/LDP/abs/html/abs-guide.html&xid=17259,15700022,15700124,15700149,15700168,15700173,15700186,15700201&usg=ALkJrhj5lJ2g4Z3cLQUtenDTXITEeeXkXQ#FTN.AEN226)
 
