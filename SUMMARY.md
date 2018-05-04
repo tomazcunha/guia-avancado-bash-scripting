@@ -7,7 +7,3 @@
   * [1.1 Programação Shell!](/introducao.md#11-programação-shell)
   * [1.2 Começando com um Sha-Bang](/comecando-com-um-sha-bang.md#12-começando-com-um-sha-bang)
 
-## Methods
-
-* [Defining Methods](methods.md)
-
