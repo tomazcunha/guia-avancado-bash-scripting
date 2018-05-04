@@ -25,7 +25,7 @@ Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmen
 [include](scripts/2.3-limpeza.sh)
 
 <br>
-Como você pode não querer eliminar todo o log do sistema, essa versão do script mantém a última seção do log de mensagens intacta.Você descobrirá constantemente maneiras de ajustar os scripts escritos anteriormente para aumentar a eficácia.
+Como você pode não querer eliminar todo o log do sistema, essa versão do script mantém a última seção do log de mensagens intacta. Você descobrirá constantemente maneiras de ajustar os scripts escritos anteriormente para aumentar a eficácia.
 
 ***
 
