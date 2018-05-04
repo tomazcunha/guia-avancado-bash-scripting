@@ -16,7 +16,7 @@ Não há nada incomum aqui, apenas um conjunto de comandos que poderiam facilmen
 
 [include](scripts/2.2-limpeza.sh)
 
-
+&lt;br&gt;&lt;br&gt;
 
 **Exemplo 2-3 Limpeza : uma versão aprimorada e generalizada dos scripts acima.**
 
