@@ -31,7 +31,7 @@ Como você pode não querer eliminar todo o log do sistema, essa versão do scri
 
 O sha-bang \( \#! \) [\[6\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN205) o cabeçalho do script diz ao seu sistema que este arquivo é um conjunto de comandos a serem alimentados ao interpretador de comandos indicado. O \#! é na verdade um número mágico de dois bytes [\[7\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN214), um marcador especial que designa um tipo de arquivo ou, neste caso, um script de shell executável \(digite **man magic** para obter mais detalhes sobre esse fascinante tópico\). Imediatamente após o sha-bang, vem um nome de caminho. Este é o caminho para o programa que interpreta os comandos no script, seja um shell, uma linguagem de programação ou um utilitário. Este interpretador de comandos executa os comandos no script, começando no topo \(a linha que segue a linha sha-bang \) e ignorando os comentários. [\[8\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN226)
 
-```[bash]
+```{bash}
 #!/bin/sh
 #!/bin/bash
 #!/usr/bin/perl
