@@ -1,4 +1,4 @@
-# 1 Introdução
+# Parte 1 - Introdução
 
 > _Script: uma escrita; um documento escrito.\[Obs.\]_
 >
@@ -6,7 +6,7 @@
 
 O shell é um interpretador de comandos. Mais do que apenas a camada de isolamento entre o kernel do sistema operacional e o usuário, também é uma linguagem de programação bastante poderosa. Um programa shell, chamado de script, é uma ferramenta fácil de usar para criar aplicativos "colando" chamadas de sistema, ferramentas, utilitários e binários compilados. Praticamente todo o repertório de comandos, utilitários e ferramentas do UNIX está disponível para invocação por um script de shell. Se isso não bastasse, os comandos internos do shell, como testes e construções de loop, fornecem mais poder e flexibilidade aos scripts. Scripts Shell são especialmente adequados para tarefas administrativas do sistema e outras tarefas rotineiras e repetitivas que não requerem os sinos e assobios de uma linguagem de programação totalmente estruturada.
 
-# 1.1 Programação Shell!
+# Capítulo 1 - Programação Shell!
 
 > Nenhuma linguagem de programação é perfeita. Não existe sequer uma única melhor linguagem; existem apenas idiomas adequados ou talvez pouco adequados para fins particulares.
 >
@@ -28,21 +28,21 @@ De acordo com [Herbert Mayer](http://tldp.org/LDP/abs/html/abs-guide.html#MAYERR
 
 Quando não usar scripts de shell
 
-* Tarefas intensivas em recursos, especialmente onde a velocidade é um fator \(classificação, hashing, recursão [\[2\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN87) ...\)
-* Procedimentos envolvendo operações matemáticas resistentes, especialmente aritmética de ponto flutuante, cálculos de precisão arbitrária ou números complexos \(use C++ ou FORTRAN \)
-* Necessidades de portabilidade entre plataformas \(use C ou Java \)
-* Aplicações complexas, onde a programação estruturada é uma necessidade \(verificação de tipo de variáveis, protótipos de funções, etc.\)
-* Aplicativos de missão crítica nos quais você está apostando o futuro da empresa
-* Situações em que a _segurança_ é importante, onde você precisa garantir a integridade do sistema e proteger contra invasões, craqueamento e vandalismo
-* Projeto que consiste em subcomponentes com dependências interligadas
-* Necessidade de extensas operações de arquivo \(o Bash é limitado ao acesso a arquivos seriais, e isso apenas de maneira particularmente desajeitada e ineficiente, linha por linha\).
-* Precisa de suporte nativo para matrizes multidimensionais
-* Precisa de estruturas de dados, como listas vinculadas ou árvores
-* Precisa gerar/manipular gráficos ou GUIs
-* Precisa de acesso direto ao hardware do sistema ou periféricos externos
-* Precisa de porta ou [soquete](http://tldp.org/LDP/abs/html/abs-guide.html#SOCKETREF) I/O
-* Precisa usar bibliotecas ou fazer interface com código legado
-* Aplicações proprietárias de código fechado \(os scripts do Shell colocam o código-fonte em aberto para todo o mundo ver\).
+*   Tarefas intensivas em recursos, especialmente onde a velocidade é um fator \(classificação, hashing, recursão [\[2\]](http://tldp.org/LDP/abs/html/abs-guide.html#FTN.AEN87) ...\)
+*   Procedimentos envolvendo operações matemáticas resistentes, especialmente aritmética de ponto flutuante, cálculos de precisão arbitrária ou números complexos \(use C++ ou FORTRAN \)
+*   Necessidades de portabilidade entre plataformas \(use C ou Java \)
+*   Aplicações complexas, onde a programação estruturada é uma necessidade \(verificação de tipo de variáveis, protótipos de funções, etc.\)
+*   Aplicativos de missão crítica nos quais você está apostando o futuro da empresa
+*   Situações em que a _segurança_ é importante, onde você precisa garantir a integridade do sistema e proteger contra invasões, craqueamento e vandalismo
+*   Projeto que consiste em subcomponentes com dependências interligadas
+*   Necessidade de extensas operações de arquivo \(o Bash é limitado ao acesso a arquivos seriais, e isso apenas de maneira particularmente desajeitada e ineficiente, linha por linha\).
+*   Precisa de suporte nativo para matrizes multidimensionais
+*   Precisa de estruturas de dados, como listas vinculadas ou árvores
+*   Precisa gerar/manipular gráficos ou GUIs
+*   Precisa de acesso direto ao hardware do sistema ou periféricos externos
+*   Precisa de porta ou [soquete](http://tldp.org/LDP/abs/html/abs-guide.html#SOCKETREF) I/O
+*   Precisa usar bibliotecas ou fazer interface com código legado
+*   Aplicações proprietárias de código fechado \(os scripts do Shell colocam o código-fonte em aberto para todo o mundo ver\).
 
 Se alguma das situações acima se aplica, considere uma linguagem de script mais poderosa - talvez Perl, Tcl, Python, Ruby - ou possivelmente uma linguagem compilada como C, C++ ou Java. Mesmo assim, a criação de protótipos do aplicativo como um script de shell ainda pode ser uma etapa de desenvolvimento útil.
 
@@ -55,6 +55,3 @@ Salvo indicação em contrário, [o autor](mailto:thegrendel.abs@gmail.com) dest
 > Seu semblante era ousado e não batido.
 >
 > --Edmund Spenser
-
-
-

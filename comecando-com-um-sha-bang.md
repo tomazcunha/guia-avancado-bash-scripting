@@ -1,4 +1,4 @@
-# 1.2 Começando com um Sha-Bang
+# Capítulo 2 - Começando com um Sha-Bang
 
 > A programação do Shell é uma juke box dos anos 50...
 >
