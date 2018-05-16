@@ -20,7 +20,7 @@ chmod u+rx nomedoscript  # fornece apenas a permissão de leitura/execução do 
 
 Tendo feito o script executável, agora você pode testá-lo com o comando **./nomedoscript**. [[3]](http://tldp.org/LDP/abs/html/invoking.html#FTN.AEN327) Se começar com uma linha "sha-bang", ao invocar o script, chama o interpretador de comandos correto para executá-lo.
 
-Como etapa final, após testar e depurar, você provavelmente desejaria movê-lo para _/usr/local/bin_ (como root, é claro), para tornar o script disponível para você e para todos os outros usuários como um executável em todo o sistema. O script poderia então ser invocado simplesmente digitando **nomedoscript [ENTER]** na linha de comando.
+Como etapa final, após testar e depurar, você provavelmente desejaria movê-lo para _/usr/local/bin_ (como root, é claro), para tornar o script disponível para você e para todos os outros usuários como um executável em todo o sistema. O script poderia então ser invocado simplesmente digitando **nomedoscript \[ENTER\]** na linha de comando.
 Notas
 
 [[1]](http://tldp.org/LDP/abs/html/invoking.html#AEN300) Cuidado: invocar um script Bash com **sh nomedoscript** desativa as extensões específicas do Bash, e o script pode falhar na execução.
